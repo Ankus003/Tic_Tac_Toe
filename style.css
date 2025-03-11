@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #014F86, #90E0EF);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;  /*70% from the total display is given to container*/
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin; /*60% of containers display is given to game*/
+    width: 60vmin;
+    display: flex;    /*Everything comes in a line*/
+    flex-wrap: wrap;  /*If no space come in next line*/
+    align-items: center;     /*It comes in center as in the game box*/
+    gap: 1.5vmin;         /*Gives a bit gap between boxes*/
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #D4A373;
+}
+
+.reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+
+
+
+.msg{
+    color:#03045E;
+    font-size: 4vmin;
+}
+.msg-container{
+    height: 30vmin;
+    display: flex;
+}
+
+.hide{
+    display:none;
+}
